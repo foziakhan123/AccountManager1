@@ -4,26 +4,12 @@
   <table style="width:100%">
   <tr>
     <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td> 
-    <td>94</td>
+    <th>Lastname</th>
+    <th>AccountNumber</th>
   </tr>
 </table>
-  
-  
-
   </div>
 </template>
-
 <script>
 export default {
   name: 'AccountManager',
@@ -34,9 +20,6 @@ export default {
   }
 }
 </script>
-
-
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1, h2 {
